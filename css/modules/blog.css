@@ -1,0 +1,142 @@
+@charset "utf-8";
+#mv {
+    margin-bottom: 30px;
+}
+
+#main {
+    width: 980px;
+    overflow: hidden;
+}
+
+#main a {
+    color: #dfa536;
+    text-decoration: underline;
+}
+
+#main a:hover {
+    text-decoration: none;
+}
+
+#blogside {
+    width: 205px;
+    float: left;
+}
+
+#blogside h3 {
+    padding-bottom: 19px;
+    background: url(../../images/dot_line_bg.png)repeat-x left bottom;
+    margin-bottom: 15px;
+}
+
+#blogside h3 span {
+    text-indent: -2342px;
+    overflow: hidden;
+    display: block;
+}
+
+#calendar-2 span {
+    background: url(../../images/calendar_title.png)no-repeat;
+}
+
+#recent-posts-3 span {
+    background: url(../../images/recent_title.png)no-repeat;
+}
+
+.calendar_wrap {
+    margin-bottom: 60px;
+    font-size: 10px;
+}
+
+#wp-calendar {
+    width: 100%;
+    position: relative;
+}
+
+#wp-calendar th,
+#wp-calendar td {
+    text-align: center;
+    font-weight: normal;
+    padding: 3px 3px 5px 3px;
+}
+
+#wp-calendar th[title="ri"] {
+    color: #f00;
+}
+
+#wp-calendar th[title="tu"] {
+    color: #00f;
+}
+
+#wp-calendar caption {
+    padding: 0px 1px 7px 1px;
+}
+
+#wp-calendar tfoot td {
+    position: absolute;
+    top: 0;
+    left: 42px;
+}
+
+#wp-calendar tfoot td#next {
+    left: auto;
+    right: 42px;
+}
+
+#wp-calendar tfoot td.pad {
+    display: none;
+}
+
+#recent-posts-3 li {
+    margin-bottom: 5px;
+}
+
+#recent-posts-3 {
+    font-size: 11px;
+    font-weight: bold;
+}
+#blogmain article>h2{
+	min-height: 33px;
+	box-sizing: border-box;
+	font-size: 17px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	background: url(../../images/dot_line_bg.png) repeat-x left bottom;
+	margin-bottom: 30px;
+	
+}
+#blogmain {
+    width: 480px;
+    float: left;
+    margin-left: 50px;
+}
+#blogmain article{
+	background: url(../../images/dot_line_bg.png)repeat-x left bottom;
+	padding-bottom: 29px;
+}
+#blogmain .date{
+	display: inline-block;
+	float: right;
+	font-size: 11px;
+	
+	
+}
+#blogmain .paper{
+	width: 100%;
+	text-align:center;
+	line-height: 1.2;
+	padding-top: 26px;
+}
+#blogmain .paper li{
+	display: inline-block;
+	font-size: 1.2;
+	padding: 0 17px;
+}
+#blogmain ul{
+	padding-top: 30px;
+	text-align: center;
+	line-height: 1.2;
+}
+footer{
+	padding-top: 100px;
+	padding-bottom: 10px;
+}

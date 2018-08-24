@@ -1,0 +1,19 @@
+#main{
+    width: 980px;
+}
+.swiper-container{
+    margin: auto;
+     width: 600px;
+     height: 300px;
+}
+.swiper-wrapper{
+	height:300px;
+}
+.swiper-slide{
+	width:300px;
+	height:300px;
+}
+.swiper-slide img{
+	 height:100%;
+	 width:100%;
+}

@@ -1,0 +1,54 @@
+
+#gallery #main #photoList li{
+	float:left;
+	margin-left:17px;
+	margin-bottom:17px;
+}
+#main #photoList li img{
+	max-height: 100%;
+	max-width: 100%;
+}
+
+#gallery #main #photoList li a{
+	width:120px;
+	height:180px;
+	overflow:hidden;
+	background:#000;
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+}
+#main .pager{
+	clear: both;
+	margin-bottom: 40px;
+	padding-right: 44px;
+}
+
+#photoDetail{
+	position: absolute;
+	left: 240px;
+	width: 536px;
+	height: 536px;
+	display: none;
+}
+#photoDetail #detailbg{
+	position: relative;
+
+}
+#detailClose{
+	position: absolute;
+	top: 18px;
+	right: 30px;
+	width: 18px;
+	height: 30px;
+	overflow: hidden;
+}
+#photoDetail #detailClose a{
+	margin-top:-18px;
+	display:block;
+}
+#photoDetail #detailImg{
+	position: absolute;
+	top: 0;
+	left: 0;
+}

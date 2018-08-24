@@ -1,0 +1,327 @@
+body {
+	letter-spacing: 0.07em;
+}
+
+h1 {
+	margin-bottom: 80px;
+	padding-top: 100px;
+}
+
+.tml {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 160px;
+}
+
+.tml * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.tml .error,
+.tml .message {
+	margin: 0 auto 30px;
+	box-sizing: border-box;
+	color: #333;
+}
+
+.tml .error {
+	border: 1px solid #c00;
+	background-color: #ffebe8;
+	display: inline-block;
+	padding: 5px;
+}
+
+.tml .message {
+	line-height: 1.75;
+	margin-bottom: 50px;
+}
+
+.tml.tml-login .message {
+	margin-bottom: 27px;
+}
+
+.tml.tml-lostpassword .message,
+.tml.tml-resetpass .message{
+	margin-bottom: 40px;
+}
+
+.tml p {
+	margin: 0 0 1.5em 0;
+	padding: 0;
+}
+
+.tml label {
+	display: block;
+	text-align: left;
+}
+
+.tml .tml-rememberme-wrap label {
+	display: inline;
+}
+
+.tml .tml-rememberme-wrap {
+	margin-bottom: 18px;
+}
+
+.tml .tml-submit-wrap {
+	margin-bottom: 55px;
+}
+
+.tml input,
+.tml textarea,
+.tml select {
+	width: 100%;
+}
+
+.tml .input {
+	width: 100%;
+	height: 36px;
+	background: #fbfbfb;
+	font-size: 24px;
+	padding: 3px;
+	border: 1px solid #ddd;
+	color: #32373c;
+	outline: 0;
+	border-radius:0;
+	font-family: inherit;
+	box-sizing: border-box;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+	margin: 5px 0 0;
+}
+
+.tml .tml-user-login-wrap,
+.tml .tml-user-pass-wrap,
+.tml .tml-user-email-wrap,
+.tml .tml-user-pass1-wrap,
+.tml .tml-user-pass2-wrap,
+.tml .user-pass1-wrap,
+.tml .user-pass2-wrap{
+	width: 272px;
+	margin: 0 auto;
+}
+
+.tml .tml-user-pass1-wrap,
+.tml .tml-user-pass2-wrap{
+	margin-top: 15px;
+}
+
+.tml input[type="checkbox"],
+.tml input[type="radio"],
+.tml .tml-rememberme-wrap input {
+	vertical-align: middle;
+	width: auto;
+}
+
+.tml input[type="checkbox"] {
+	background: #fbfbfb;
+	    border: 1px solid #b4b9be;
+    background: #fff;
+    color: #555;
+    clear: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 0;
+    height: 16px;
+    margin: -4px 4px 0 0;
+    outline: 0;
+    padding: 0!important;
+    text-align: center;
+    vertical-align: middle;
+    width: 16px;
+    min-width: 16px;
+/*
+    -webkit-appearance: none;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+*/
+}
+
+.tml .tml-action-links {
+	display: inline-block;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+}
+
+.tml .tml-action-links li {
+	border: none;
+	border-right: 1px solid rgba(0, 0, 0, 0.4);
+	float: left;
+	line-height: 1;
+	list-style: none;
+	margin: 0 0.5em 0 0;
+	padding: 0 0.5em 0 0;
+}
+
+.tml .tml-action-links li:last-child {
+	border-right: none;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.tml .tml-action-links a {
+	display: block;
+}
+
+.tml .tml-user-avatar {
+	text-align: left;
+}
+
+.mu_register .hint {
+	font-size: 12px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.mu_register label.checkbox {
+	display: inline;
+}
+
+#pass-strength-result {
+	background-color: #eee;
+	border: 1px solid #ddd;
+	color: #23282d;
+	font-weight: 600;
+	margin: 0;
+	padding: 3px 5px;
+	text-align: center;
+	width: 100%;
+	opacity: 0;
+}
+
+#pass-strength-result.short {
+	background-color: #f1adad;
+	border-color: #e35b5b;
+	opacity: 1;
+}
+
+#pass-strength-result.bad {
+	background-color: #fbc5a9;
+	border-color: #f78b53;
+	opacity: 1;
+}
+
+#pass-strength-result.good {
+	background-color: #ffe399;
+	border-color: #ffc733;
+	opacity: 1;
+}
+
+#pass-strength-result.strong {
+	background-color: #c1e1b9;
+	border-color: #83c373;
+	opacity: 1;
+}
+
+.pw-weak {
+	display:none;
+}
+
+.tml .indicator-hint {
+	padding-top: 8px;
+	line-height: 1.4;
+}
+
+#pass1,
+#pass1-text {
+	width: 100%;
+}
+
+#pass1-text,
+.show-password #pass1 {
+	display: none;
+}
+
+.show-password #pass1-text
+{
+	display: inline-block;
+}
+
+@media screen and (min-width: 768px) {
+}
+
+
+.tml #wp-submit {
+	background: url(../images/login_btn.png) no-repeat;
+	width: 270px;
+	height: 50px;
+	text-indent: -9999px;
+	overflow: hidden;
+	border: none;
+	cursor: pointer;
+}
+
+.tml #wp-submit.register_submit {
+	background: url(/memberspage/wp-content/themes/main/img/form/register_btn.png) no-repeat;
+} 
+
+.tml #wp-submit.lostpassword_submit {
+	background: url(/memberspage/wp-content/themes/main/img/form/pass_get_btn.png) no-repeat;
+} 
+
+.tml #wp-submit.resetpass_submit {
+	background: url(/memberspage/wp-content/themes/main/img/form/pass_reset_btn.png) no-repeat;
+} 
+
+.tml #wp-submit.off {
+	opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.tml .msg {
+	line-height: 1.75;
+	margin-bottom: 50px;
+}
+
+.privacy {
+	width: 600px;
+	margin: 45px auto;
+}
+
+.tml .privacy_msg {
+	line-height: 1.75;
+	margin-bottom: 40px;
+}
+
+.privacy_box {
+	width: 100%;
+	height: 200px;
+	box-sizing: border-box;
+	border: 1px solid #e3e3e3;
+	overflow: auto;
+	margin-bottom: 48px;
+}
+
+.privacy_box p {
+	padding: 10px;
+	text-align: left;
+	margin: 0;
+}
+
+.privacy label {
+	display: inline;
+	text-align: left;
+}
+
+.leave_msg {
+	line-height: 1.75;
+	margin-bottom: 50px;
+}
+
+.button-nlmg {
+	background: url(/memberspage/wp-content/themes/main/img/form/leave_btn.png) no-repeat;
+	width: 270px;
+	height: 50px;
+	text-indent: -9999px;
+	overflow: hidden;
+	border: none;
+	cursor: pointer;
+}
+
+#nlmg-resign-form {
+	margin-bottom: 60px;
+}

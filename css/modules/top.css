@@ -1,0 +1,101 @@
+/****content*****/
+#topmain{
+	height: 480px;
+	position: relative;
+	margin-bottom: 40px;
+}
+#topmain #mainvisual li{
+	position: absolute;
+	display: none;
+	height: 480px;
+	width: 980px;
+}
+#topmain #mainvisual img{
+	height:100%;
+	width: 100%;
+}
+#topmain #infoArea{
+	position: absolute;
+	top: 27px;
+	left: 29px;
+	height: 450px;
+	width: 260px;
+	z-index: 10px;
+	
+}
+#topmain #infoArea li{
+	margin-top: 15px;
+}
+#infoArea a:hover{
+     text-decoration: underline;
+}
+#topmain #infoArea dl dt{
+	background: url(../../images/dotline.png)no-repeat 0 bottom;
+	margin-bottom: 10px;
+	height: 25px;
+}
+
+#topmain #top-musicinformation{
+	margin-top: 15px;
+}
+#bnArea{
+	height: 180px;
+}
+#mainBnrArea li{
+	display: inline-block;
+}
+#subBnArea li{
+	float:left;
+	margin-top: 15px;
+}
+header nav li.nav-information a{
+	width:94px;
+	background:url(../../images/common/navi/information-over.gif) no-repeat;
+}
+header nav li.nav-music a{
+	width:148px;
+	background:url(../../images/common/navi/music-over.gif) no-repeat;
+}
+header nav li.nav-profile a{
+	width:53px;
+	background:url(../../images/common/navi/profile-over.gif) no-repeat;
+}
+header nav li.nav-discography a{
+	width:94px;
+	background:url(../../images/common/navi/discography-over.gif) no-repeat;
+}
+header nav li.nav-media a{
+	width:46px;
+	background:url(../../images/common/navi/media-over.gif) no-repeat;
+}
+header nav li.nav-blog a{
+	width:34px;
+	background:url(../../images/common/navi/blog-over.gif) no-repeat;
+}
+header nav li.nav-gallery a{
+	width:52px;
+	background:url(../../images/common/navi/gallery-over.gif) no-repeat;
+}
+header nav li.nav-bbs a{
+	width:28px;
+	background:url(../../images/common/navi/bbs-over.gif) no-repeat;
+}
+header nav li.nav-links a{
+	width:40px;
+	background:url(../../images/common/navi/links-over.gif) no-repeat;
+}
+header nav li.nav-mail a{
+	width:34px;
+	background:url(../../images/common/navi/mail-over.gif) no-repeat;
+}
+
+header nav li.nav-mobile a{
+	width:52px;
+	background:url(../../images/common/navi/mobile-over.gif) no-repeat;
+}
+
+
+header nav li a:hover img
+{
+	visibility:hidden;
+}

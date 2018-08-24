@@ -1,0 +1,30 @@
+div{
+	width: 100px;
+	height: 100px;
+	background: red;
+	animation: myfirst 5s;
+}
+@keyframes myfirst
+{
+	from{background: red;}
+	to{background: yellow;}
+}
+
+
+.class {
+    transform:rotate(20deg);
+    transition: 1s;
+    background-image: linear-gradient(to bottom, #444444, #999999);
+}
+a {
+     width : calc(50% - 2em);
+     background: red;
+     border-radius: initial;
+     transition : transform 1s
+}
+#a1{
+    text-shadow: 10px 10px;
+}
+#content {
+ display: flex;
+}

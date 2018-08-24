@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="swiper-4.3.5.min.css">
+    <script src="swiper-4.3.5.min.js"></script>
+    <style type="text/css">
+    #main{
+        height: 600px;
+        width: 980px;
+       margin:auto;
+    }
+.swiper-container{
+    margin: auto;
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+.swiper-wrapper {
+   transition-timing-function: linear;
+}
+#main img{
+    height: 100%;
+    width: 100%;
+}
+.swiper-container .swiper-button-hidden{ opacity : 0; }
+</style>
+</head>
+
+<body>
+    <div id="main">
+        <div class="swiper-container ">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"> <img src="images/main1.jpg"></div>
+                <div class="swiper-slide"> <img src="images/main2.jpg"></div>
+                <div class="swiper-slide"> <img src="images/timg.jpg"></div>
+            </div>
+           
+        </div>
+    </div>
+    <script>
+    
+        var mySwiper = new Swiper ('.swiper-container', {
+       autoplay: {
+    delay: 1,//5秒切换一次
+  },//自动滚动
+        
+         
+         loop: true,
+    
+        speed:9000,//滚动速度
+       
+    })
+    
+    </script>
+</body>
+
+</html>

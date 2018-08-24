@@ -1,0 +1,57 @@
+#profile #main{
+	padding-top: 20px;
+}
+#profile #basicinfo{
+	margin-bottom: 80px;
+}
+#profile #basicinfo .photo{
+	float: left;
+}
+#basicinfo #profilebox{
+	float: left;
+	margin-left: 25px;
+}
+#relatedinfo{
+	clear: both;
+	padding-top: 30px;
+}
+#profile #relatedinfo .infolist .list-text p strong {
+    line-height: 1;
+    background: url(../../images/common/square.gif) no-repeat 0 center;
+    padding-left: 12px;
+}
+#profile #relatedinfo .infolist .list-title {
+    color: #DFA536;
+    font-weight: bold;
+    font-size: 80%;
+
+    background: url(../../images/dotline.png) no-repeat 0 bottom;
+    padding-bottom: 10px;
+    margin-bottom: 9px;
+}
+#relatedinfo dd{
+	margin-left: 0px;
+}
+#profile #relatedinfo .infolist .list-text ul{
+	margin-left:12px;
+	margin-bottom:18px;
+}
+
+#profile #relatedinfo .infolist .list-text ul li{
+	margin-bottom:2px;
+}
+#profile #basicinfo #profilebox .name-box {
+    margin-bottom: 20px;
+}
+
+#profile #basicinfo #profilebox .info-box dt{
+	clear:both;
+	float:left;
+}
+#profile #basicinfo #profilebox .info-box dt img{
+	vertical-align:middle;
+}
+#profile #basicinfo #profilebox .info-box dd{
+	margin-left:135px;
+	margin-bottom:8px;
+}

@@ -1,0 +1,105 @@
+
+/*******default******/
+header,#contents,footer{
+	width: 980px;
+	text-align: left;
+	clear: both;
+	margin: 0 auto;
+	position: relative;
+}
+
+/*******header*******/
+header{
+	padding-top: 50px;
+	margin-bottom: 25px;
+}
+header h1{
+	text-align: center;
+	margin-bottom: 35px;
+}
+header nav{
+	height: 16px;
+}
+
+header nav li{
+	
+	float: left;
+	
+	margin-right: 30px;
+}
+header nav li a{
+	
+	height: 12px
+}
+header nav li a img{
+	vertical-align: top;
+}
+header nav li.nav-mobile{
+	float: right;
+	margin-right: 0px;
+}
+/*---------------------
+   main
+   ----------------------*/
+.sub #contents{
+	height: 536px;
+}
+.sub #contents #main{
+	width: 760px;
+	overflow: auto;
+	float: left;
+	position: relative;
+}
+.pageload #contents #main{
+	overflow: hidden;
+}
+/* --------------------------------
+   □ side
+-------------------------------- */
+.sub #side ul{
+	margin-bottom:15px;
+}
+
+.sub #side{
+	float: right;
+	width: 192px;
+}
+.sub #side img{
+	max-width: 192px;
+}
+/******footer*****/
+footer .copyright {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 60%;
+    color: #999999;
+}
+/* ◇ 簡易マウスオーバー
+-------------------------------- */
+.mouse-over a:hover img,
+.mouse-over:hover img{
+	filter:alpha(opacity=80);  
+    -ms-filter: "alpha(opacity=80)";
+	-moz-opacity:0.8; 
+	-khtml-opacity: 0.8;
+    opacity: 0.8;
+}
+
+/*--------------------
+       next prev
+  -------------------*/
+  p.next,p.prev{
+  	font-size: 75%;
+  	line-height: 1;
+  }
+  p.next{
+  	float: right;
+  	padding-right: 13px;
+  	margin-right: 15px;
+  	background: url(../images/next.gif) no-repeat right 1px;
+  }
+  p.prev{
+  	padding-left: 13px;
+  	float: left;
+  	background: url(../images/prev.gif)no-repeat left 0 1px;
+  }

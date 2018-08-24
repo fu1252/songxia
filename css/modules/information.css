@@ -1,0 +1,35 @@
+#information #main{
+	padding-top: 20px;
+}
+#information #infolist-area{
+	margin-bottom: 80px;
+}
+#information #infolist-area .infoitem{
+	padding-top: 18px;
+	margin-bottom: 35px;
+}
+#infolist-area .date{
+	font-size: 70%;
+	margin-bottom: 5px;
+}
+#infolist-area .infoitem a{
+	color: #dfa536;
+	text-decoration: underline;
+}
+#infolist-area .infoitem a:hover{
+	text-decoration: none;
+}
+#infolist-area .infoitem dl dt{
+	font-size: 130%;
+	font-weight: bold;
+	color: #dfa536;
+	margin: 5px 0px;
+	
+}
+#information #infolist-area .infoitem p{
+	margin-bottom: 5px;
+}
+#information #infolist-area .infoitem dl dd{
+	font-size:78%;
+	margin-left: 0px;
+}
